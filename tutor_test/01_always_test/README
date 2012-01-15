@@ -1,0 +1,19 @@
+■概要
+  always_comb と @(*)と確認
+
+■シミュレーション方法
+  $> make [sample/sample2/sample3]
+
+■ソースコード概要
+  sample.sv  - 基本確認
+  sample2.sv - 組み合わせの中にfunction
+  sample3.sv - latch記述の確認
+
+■注意事項
+  always_comb と @(*)の切り替えは手動で行う。
+  ->コメントアウトを切り替える。
+
+■動作環境
+　OS       :Ubuntu11.10
+  Simulator:ModelSim-AE 6.6d
+
