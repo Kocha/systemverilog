@@ -1,3 +1,9 @@
 ■ディレクトリ説明
-  00_test - DPI-C Test
+  00_test/
+    - DPI-C ModelSim Example Test
+      http://lsifrontend.blog100.fc2.com/blog-entry-244.html
+      http://lsifrontend.blog100.fc2.com/blog-entry-245.html
+  01_task
+    - DPI-C Task Input/Output Test
+      http://lsifrontend.blog100.fc2.com/blog-entry-247.html
 
