@@ -1,0 +1,14 @@
+■概要
+  DPI-C Test(ModelSim Example Modify:C link option)
+
+■シミュレーション方法
+  $> make [run]
+
+■ソースコード概要
+  hello.sv  - SystemVerilog Code
+  hello_c.c - C Code(delete DPI-C Header)
+
+■動作環境
+　OS       :Ubuntu11.10
+  Simulator:ModelSim-ASE 10.0c
+

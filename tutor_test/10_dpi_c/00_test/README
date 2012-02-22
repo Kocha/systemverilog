@@ -1,4 +1,5 @@
 ■ディレクトリ説明
   00_org_example - ModelSim Example
   01_example     - 00_org_exampleからシンプル記述に変更
+  02_example_pic - 01_examplからC link時のオプションを-fPICに変更
 
