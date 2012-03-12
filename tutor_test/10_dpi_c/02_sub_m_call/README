@@ -1,0 +1,14 @@
+■概要
+  DPI-C Test(Sub Module Call Task)
+
+■シミュレーション方法
+  $> make [run]
+
+■ソースコード概要
+  tb.sv  - SystemVerilog Code
+  c_main.c - C Code(delete DPI-C Header)
+
+■動作環境
+　OS       :Ubuntu11.10
+  Simulator:ModelSim-ASE 10.0c
+
