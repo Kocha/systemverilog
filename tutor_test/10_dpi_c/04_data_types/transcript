@@ -1,0 +1,25 @@
+# vsim -do {run -all; quit} -c -sv_lib c_main tb 
+# ** Warning: (vsim-7032) The 32-bit glibc RPM does not appear to be installed on this machine.  Calls to gcc may fail.
+# 
+#    Time: 0 ps  Iteration: 0  Unknown: <UNKNOWN>
+# ** Warning: (vsim-7032) The 32-bit glibc RPM does not appear to be installed on this machine.  Calls to gcc may fail.
+# 
+#    Time: 0 ps  Iteration: 0  Unknown: <UNKNOWN>
+# Loading /var/tmp/kocha@kocha-VirtualBox_dpi_2109/linuxpe_gcc-4.6.1/export_tramp.so
+# Loading sv_std.std
+# Loading work.tb
+# ** Warning: (vsim-7032) The 32-bit glibc RPM does not appear to be installed on this machine.  Calls to gcc may fail.
+# 
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: tb.sv
+# Compiling /var/tmp/kocha@kocha-VirtualBox_dpi_2109/linuxpe_gcc-4.6.1/exportwrapper.c
+# ** Error: (vsim-FLI-3155) The FLI is not enabled in this version of ModelSim.
+# Loading /var/tmp/kocha@kocha-VirtualBox_dpi_2109/linuxpe_gcc-4.6.1/dpi_auto_compile.so
+# Loading ./c_main.so
+# run -all 
+# Hello from c_main()
+# --- sv_byte      : input=   8, output=  80
+# ------ c in=8, out=80
+# ** Note: Data structure takes 8553568 bytes of memory
+#          Process time 0.00 seconds
+#          $finish    : tb.sv(7)
+#    Time: 0 ps  Iteration: 0  Instance: /tb
