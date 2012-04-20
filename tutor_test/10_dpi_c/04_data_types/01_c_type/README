@@ -1,0 +1,14 @@
+■概要
+  DPI-C Test(C/C++ Data Type)
+
+■シミュレーション方法
+  $> make [run]
+
+■ソースコード概要
+  tb.sv    - SystemVerilog Code
+  c_main.c - C Code
+
+■動作環境
+　OS       :Ubuntu11.10
+  Simulator:ModelSim-ASE 10.0c
+
