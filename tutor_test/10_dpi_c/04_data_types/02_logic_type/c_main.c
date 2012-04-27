@@ -20,15 +20,34 @@ int c_main(void) {
     printf("------ c in(a)=%d, out(a)=%d, in(b)=%d, out(b)=%d\n",
            logicvec_in.aval, logicvec_out.aval, logicvec_in.bval, logicvec_out.bval);     
 
-  // input svLogicVecVal.bval data
+  // input svLogicVecVal data = z
   printf("\n");
-  printf("--- test svLogicVecVal.bval data\n");
-  logicvec_in.aval = 3;
-  logicvec_in.bval = 2;
+  printf("--- test svLogicVecVal data=Z\n");
+  logicvec_in.aval = 0;
+  logicvec_in.bval = 1;
   c_svlogic ( &logicvec_in, &logicvec_out);
     printf("------ c in(a)=%d, out(a)=%d, in(b)=%d, out(b)=%d\n",
            logicvec_in.aval, logicvec_out.aval, logicvec_in.bval, logicvec_out.bval);     
 
+  // input svLogicVecVal data = x
+  printf("\n");
+  printf("--- test svLogicVecVal data=X\n");
+  logicvec_in.aval = 1;
+  logicvec_in.bval = 1;
+  c_svlogic ( &logicvec_in, &logicvec_out);
+    printf("------ c in(a)=%d, out(a)=%d, in(b)=%d, out(b)=%d\n",
+           logicvec_in.aval, logicvec_out.aval, logicvec_in.bval, logicvec_out.bval);     
+
+  // input svLogicVecVal data = x
+  printf("\n");
+  printf("--- test svLogicVecVal data=X\n");
+  logicvec_in.aval = 2;
+  logicvec_in.bval = 2;
+  c_svlogic_b ( &logicvec_in, &logicvec_out);
+    printf("------ c in(a)=%d, out(a)=%d, in(b)=%d, out(b)=%d\n",
+           logicvec_in.aval, logicvec_out.aval, logicvec_in.bval, logicvec_out.bval);     
+
+  
   return (0);
 }
 
