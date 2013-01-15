@@ -1,0 +1,13 @@
+■概要
+  final構文 のテスト
+
+■シミュレーション方法
+  $> make [sample]
+
+■ソースコード概要
+  sample.sv  - 基本確認
+
+■動作環境
+　OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.0d
+

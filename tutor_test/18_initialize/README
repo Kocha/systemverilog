@@ -1,0 +1,18 @@
+■概要
+ メンバ変数の初期化順序のテスト
+
+■シミュレーション方法
+  $> make [run/run_sv]
+  run    - Verilog HDLコンパイル
+  run_sv - SystemVerilogコンパイル
+
+■ソースコード概要
+  sample.sv  - 基本確認
+
+■動作環境
+  OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.0d
+
+■Web
+  http://lsifrontend.blog100.fc2.com/blog-entry-345.html
+

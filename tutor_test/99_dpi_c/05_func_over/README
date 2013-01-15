@@ -1,0 +1,16 @@
+■概要
+  DPI-C Test(関数のオーバーロード)
+
+■シミュレーション方法
+  $> make [run]
+
+■ソースコード概要
+  tb.sv  - SystemVerilog Code
+  c_main.c - C Code(delete DPI-C Header)
+
+■動作環境
+  OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.0d
+
+■Web
+  http://lsifrontend.blog100.fc2.com/blog-entry-416.html

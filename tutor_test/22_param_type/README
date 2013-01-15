@@ -1,0 +1,16 @@
+■概要
+ parameter typeのテスト
+
+■シミュレーション方法
+  $> make
+
+■ソースコード概要
+  sample.sv - 確認ソース
+
+■動作環境
+  OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.0d
+
+■Web
+  http://lsifrontend.blog100.fc2.com/blog-entry-357.html
+

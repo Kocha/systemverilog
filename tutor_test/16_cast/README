@@ -1,0 +1,16 @@
+■概要
+  $cast 構文 のテスト
+
+■シミュレーション方法
+  $> make [sample]
+
+■ソースコード概要
+  sample.sv  - 基本確認
+
+■動作環境
+　OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.0d
+
+■Web
+  http://lsifrontend.blog100.fc2.com/blog-entry-340.html
+

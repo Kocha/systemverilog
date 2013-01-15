@@ -1,0 +1,19 @@
+■概要
+  mailbox のテスト
+
+■シミュレーション方法
+  $> make [run] [RTL=]
+
+  exp) $> make RTL=sample2.sv
+
+■ソースコード概要
+  sample.sv  - 基本確認
+  sample2.sv - bound=8設定
+
+■動作環境
+  OS       :Ubuntu12.04
+  Simulator:ModelSim-AE 10.1b
+
+■Web
+  http://lsifrontend.blog100.fc2.com/blog-entry-459.html
+
