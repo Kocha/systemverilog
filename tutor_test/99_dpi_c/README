@@ -19,4 +19,7 @@
     02_logic_type
       - DPI-C Call datatype=bit,logic Test
         http://lsifrontend.blog100.fc2.com/blog-entry-276.html
+  05_func_over/
+      - DPI-C function overload Test
+        http://lsifrontend.blog100.fc2.com/blog-entry-416.html
 
